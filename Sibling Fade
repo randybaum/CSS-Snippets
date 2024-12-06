@@ -1,0 +1,13 @@
+.element {
+  transition: opacity 0.3s;
+}
+
+/* Using the :hover and :not() pseudo-class selectors */
+.container:hover .element:not(:hover) {
+  opacity: 0.5;
+}
+
+/* Or using the :has() pseudo-class */
+.container:has(.element:hover) .element:not(:hover) {
+  opacity: 0.5;
+}
