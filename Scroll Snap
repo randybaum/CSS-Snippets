@@ -1,0 +1,13 @@
+.parent {
+  /* the parent needs to have scrollable content */
+  height: 100vh;
+  overflow: auto;
+
+  /* set scroll snap */
+  /* y = y-axis; mandatory = scrolling is forced to the next point */
+  scroll-snap-type: y mandatory; 
+
+  /* alternative options */
+  /* x = x-axis; proximity = snapping is triggered by getting close to the snap point */
+  scroll-snap-type: x proximity;
+}
