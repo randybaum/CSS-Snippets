@@ -1,0 +1,7 @@
+.wrapper:hover .figure {
+  transform: scale(0.9);
+}
+
+.wrapper:hover .img {
+  transform: scale(1.111);
+}
